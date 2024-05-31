@@ -1,0 +1,117 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#gmail{
+        color: black;
+        position: absolute;
+        top: 0;
+        right: 120px;
+        text-align: center;
+        margin: 30px;
+        cursor: pointer;
+    }
+#image{
+    color: black;
+    position: absolute;
+    top: 0;
+    right:70px;
+    text-align: center;
+    margin: 30px;
+    cursor:pointer;
+}
+#grid{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    margin: 30px;
+    font-size: 20px;
+}
+#account{
+    cursor: pointer;
+    background-color:purple;
+    position: absolute;
+    top: 0px;
+    right:0.1px ;
+    border-color:white;
+    border-radius: 50%;
+    margin: 30px;
+}
+.container {
+    text-align: center;
+}
+
+.google {
+    display: block;
+    margin: 0 auto 20px; 
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.search {
+    padding: 7px;
+    margin-top: 0;
+    align-content: center;
+    width: 500px; 
+    position: relative;
+    margin: 0 auto; 
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white; 
+    padding: 12px 20px;
+    padding-left: 50px;
+    padding-right: 90px;
+    position: relative;
+}
+
+.searchtext {
+    position: absolute;
+    left: 15px; 
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: black;
+}
+
+.micro, .lense {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.micro {
+    right: 50px; 
+}
+
+.lense {
+    right: 15px; 
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2a0px;
+}
+.footer button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
